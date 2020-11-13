@@ -1,4 +1,4 @@
-# ptp-in-vpn
+# Peer to Peer in OpenVPN
 
 sudo iptables -I FORWARD -i tun0 -o eth0 \
     -s 10.8.0.0/24 -d 192.168.0.0/24 \
